@@ -131,3 +131,21 @@ let onlyVowels = str => {
 
 console.log(onlyVowels('Colin Jaffe'));
 
+console.log('\n');
+console.log('Problem 8: ');
+
+let crazyCase = str => {
+  let newStr = '';
+
+  for (let i = 0; i < str.length; i++) {
+    if ([i] % 2 !== 0) {
+      newStr += str[i].toUpperCase();
+    } else{
+      newStr += str[i];
+    }
+  }
+  return newStr;
+}
+
+console.log(crazyCase('multiple words here'));
+console.log('multiple words here'.toUpperCase());
