@@ -148,4 +148,4 @@ let crazyCase = str => {
 }
 
 console.log(crazyCase('multiple words here'));
-console.log('multiple words here'.toUpperCase());
+
